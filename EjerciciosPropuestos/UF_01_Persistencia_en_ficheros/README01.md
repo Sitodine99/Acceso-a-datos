@@ -15,7 +15,7 @@
 
     // Las opciones se podrán seguir eligiendo hasta que el usuario seleccione la opción "Salir".
 
-[Ejercicio 3 - Método Escritura/Lectura](Propuesta_de_ejercicio_03_EscrituraLecturaMain) [Ejercicio 3 - Operaciones del fichero](Propuesta_de_ejercicio_03_OperacionesFichero.java) - Crea un programa en JAVA que escriba y lea de un fichero de texto (datos.txt): 
+[Ejercicio 3 - Método Escritura/Lectura](Propuesta_de_ejercicio_03_EscrituraLecturaMain.java) [Ejercicio 3 - Operaciones del fichero](Propuesta_de_ejercicio_03_OperacionesFichero.java) - Crea un programa en JAVA que escriba y lea de un fichero de texto (datos.txt): 
 
     - El programa tiene que mostrar el contenido de datos por consola, utilizando las clases FileReader y FileWriter. 
     
