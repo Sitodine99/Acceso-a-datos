@@ -20,3 +20,7 @@
     - El programa tiene que mostrar el contenido de datos por consola, utilizando las clases FileReader y FileWriter. 
     
     - El programa añadirá un caracter * para indicar que ha llegado al final del fichero.
+
+[Ejercicio 4](Propuesta_de_ejercicio_04.java) - Crea un fichero de texto llamado "Empleados.txt" que almacene un listado con 5 empleados, indicando en cada línea el ID y el nombre de cada empleado. A continuación, el programa deberá leer el contenido del fichero y mostrarlo por pantalla. 
+
+NOTA: Los empleados y los IDs tiene que introducirlos el usuario por teclado.
