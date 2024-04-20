@@ -1,0 +1,77 @@
+package UF_01_Persistencia_en_ficheros;
+
+// Importaciones necesarias
+import java.io.File;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+// Definición de la clase principal
+public class Propuesta_de_ejercicio_05 extends DefaultHandler {
+    
+    // Variables de control para indicar si se está procesando el nombre y la edad
+    boolean bName = false;
+    boolean bAge = false;
+    
+    // Método invocado al encontrar un elemento de inicio
+    @Override
+    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        // Verifica si el elemento es "person"
+        if (qName.equalsIgnoreCase("person")) {
+            // Si es así, imprime un mensaje de inicio
+            System.out.println("Start Element: " + qName);
+        } else if (qName.equalsIgnoreCase("name")) {
+            // Si el elemento es "name", indica que se está procesando un nombre
+            bName = true;
+        } else if (qName.equalsIgnoreCase("age")) {
+            // Si el elemento es "age", indica que se está procesando una edad
+            bAge = true;
+        }
+    }
+    
+    // Método invocado al encontrar un elemento de cierre
+    @Override
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        // Si el elemento es "person", imprime un mensaje de fin
+        if (qName.equalsIgnoreCase("person")) {
+            System.out.println("End Element: " + qName);
+        }
+    }
+    
+    // Método invocado al encontrar caracteres dentro de un elemento
+    @Override
+    public void characters(char ch[], int start, int length) throws SAXException {
+        // Si se está procesando un nombre, imprime el nombre
+        if (bName) {
+            System.out.println("Name: " + new String(ch, start, length));
+            // Reinicia la variable de control de nombre
+            bName = false;
+        } else if (bAge) {
+            // Si se está procesando una edad, imprime la edad
+            System.out.println("Age: " + new String(ch, start, length));
+            // Reinicia la variable de control de edad
+            bAge = false;
+        }
+    }
+    
+    // Método principal del programa
+    public static void main(String[] args) {
+        try {
+            // Crea un objeto File con la ruta del archivo XML
+            File inputFile = new File("src/miDirectorio/xml.xml");
+            // Obtiene una instancia de SAXParserFactory
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            // Obtiene un objeto SAXParser a partir de la fábrica
+            SAXParser saxParser = factory.newSAXParser();
+            // Crea una instancia de la clase Propuesta_de_ejercicio_05 (manejador SAX personalizado)
+            Propuesta_de_ejercicio_05 userhandler = new Propuesta_de_ejercicio_05();
+            // Inicia el análisis del XML pasando el archivo y el manejador como argumentos
+            saxParser.parse(inputFile, userhandler);
+        } catch (Exception e) {
+            // Manejo de excepciones: imprime la traza de la excepción en caso de error
+            e.printStackTrace();
+        }
+    }
+}
