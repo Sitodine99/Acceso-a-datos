@@ -1,9 +1,9 @@
 # Ejercicios de Acceso a datos - Persistencia en ficheros - JAVA
 
 
-[Ejercicio 1](Propuesta_de_ejercicio_01.java) - En un proyecto JAVA, crea un directorio (miDirectorio) y dentro de ese directorio un archivo (miFichero.txt) utilizando la clase "File".
+[Ejercicio 1](Propuesta_de_ejercicio_01/Propuesta_de_ejercicio_01.java) - En un proyecto JAVA, crea un directorio (miDirectorio) y dentro de ese directorio un archivo (miFichero.txt) utilizando la clase "File".
 
-[Ejercicio 2](Propuesta_de_ejercicio_02.java) - A partir del código realizado anteriormente, amplía el programa para que el usuario pueda elegir qué hacer:
+[Ejercicio 2](Propuesta_de_ejercicio_02/Propuesta_de_ejercicio_02.java) - A partir del código realizado anteriormente, amplía el programa para que el usuario pueda elegir qué hacer:
 
     - Crear un directorio llamado nuevoDirectorio en la ruta C:/AD/Ejercicios, dentro de él se creará un nuevo fichero de texto llamado "miFichero2".
 
@@ -21,7 +21,7 @@
     
     - El programa añadirá un caracter * para indicar que ha llegado al final del fichero.
 
-[Ejercicio 4](Propuesta_de_ejercicio_04.java) - Crea un fichero de texto llamado "Empleados.txt" que almacene un listado con 5 empleados, indicando en cada línea el ID y el nombre de cada empleado. A continuación, el programa deberá leer el contenido del fichero y mostrarlo por pantalla. 
+[Ejercicio 4](Propuesta_de_ejercicio_04/Propuesta_de_ejercicio_04.java) - Crea un fichero de texto llamado "Empleados.txt" que almacene un listado con 5 empleados, indicando en cada línea el ID y el nombre de cada empleado. A continuación, el programa deberá leer el contenido del fichero y mostrarlo por pantalla. 
 
 NOTA: Los empleados y los IDs tiene que introducirlos el usuario por teclado.
 
