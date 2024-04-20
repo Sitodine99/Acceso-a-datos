@@ -25,4 +25,4 @@
 
 NOTA: Los empleados y los IDs tiene que introducirlos el usuario por teclado.
 
-[Ejercio 5](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_05.java) - Crea la clase MyHandlerPersona; con los métodos necesarios para que analice el fichero [xml](Propuesta_de_ejercicio_05/miDirectorio/xml). El fichero xml contiene tres elementos <person>, cada uno con un <name> y un <age>. Al analizar el fichero, se imprimirá el nombre y la edad de cada persona. [Explicación](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Explicación.txt).
+[Ejercio 5](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_05.java) - Crea la clase MyHandlerPersona; con los métodos necesarios para que analice el fichero [xml](Propuesta_de_ejercicio_05/miDirectorio/xml). El fichero xml contiene tres elementos <person>, cada uno con un <name> y un <age>. Al analizar el fichero, se imprimirá el nombre y la edad de cada persona. [Explicación](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Explicacion.txt).
