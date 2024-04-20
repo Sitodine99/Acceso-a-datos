@@ -39,4 +39,5 @@ Ejercicio 6 - Excepciones personalizadas con ficheros:
 
 [Excepción](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Ejercicio06ArchivoNoEncontradoException.java)
     
-[Manejo de Archivos](propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Ejercicio06ManejoDeArchivos.java)
+[Manejo de Archivos](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_06_Main.java)
+
