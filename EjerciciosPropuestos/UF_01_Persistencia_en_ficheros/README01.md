@@ -28,9 +28,15 @@ NOTA: Los empleados y los IDs tiene que introducirlos el usuario por teclado.
 [Ejercicio 5](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_05.java) - Crea la clase MyHandlerPersona; con los métodos necesarios para que analice el fichero [xml](Propuesta_de_ejercicio_05/miDirectorio/xml). El fichero xml contiene tres elementos <person>, cada uno con un <name> y un <age>. Al analizar el fichero, se imprimirá el nombre y la edad de cada persona. [Explicación](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Explicacion.txt).
 
 Ejercicio 6 - Excepciones personalizadas con ficheros:
+
     - Crea una excepción personalizada llamada ArchivoNoEncontradoException.
+
     - Que se lance cuando se intenta abrir un archivo que no existe.
+
     - PISTA: La excepción personalizada se lanza dentro del bloque try-catch y se maneja en el bloque catch correspondiente. 
+
     [Main](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_06_Main.java)
+
     [Excepción](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Ejercicio06ArchivoNoEncontradoException.java)
+    
     [Manejo de Archivos](propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Ejercicio06ManejoDeArchivos.java)
