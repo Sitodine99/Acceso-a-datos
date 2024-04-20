@@ -45,7 +45,7 @@ public class Propuesta_de_ejercicio_05 extends DefaultHandler {
     public static void main(String[] args) {
         
         try {
-            File inputFile = new File("src/miDirectorio/xml");
+            File inputFile = new File("Propuesta_de_ejercicio_05/miDirectorio/xml");
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
             Propuesta_de_ejercicio_05 userhandler = new Propuesta_de_ejercicio_05();
