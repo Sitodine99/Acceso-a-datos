@@ -24,3 +24,5 @@
 [Ejercicio 4](Propuesta_de_ejercicio_04.java) - Crea un fichero de texto llamado "Empleados.txt" que almacene un listado con 5 empleados, indicando en cada línea el ID y el nombre de cada empleado. A continuación, el programa deberá leer el contenido del fichero y mostrarlo por pantalla. 
 
 NOTA: Los empleados y los IDs tiene que introducirlos el usuario por teclado.
+
+[Ejercio 5](Propuesta_de_ejercicio_05/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_05.java) - Crea la clase MyHandlerPersona; con los métodos necesarios para que analice el fichero [xml](Propuesta_de_ejercicio_05/miDirectorio/xml). El fichero xml contiene tres elementos <person>, cada uno con un <name> y un <age>. Al analizar el fichero, se imprimirá el nombre y la edad de cada persona.
