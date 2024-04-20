@@ -35,9 +35,9 @@ Ejercicio 6 - Excepciones personalizadas con ficheros:
 
     - PISTA: La excepción personalizada se lanza dentro del bloque try-catch y se maneja en el bloque catch correspondiente. 
 
-[Main](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_06_Main.java)
+[Main](Propuesta_de_ejercicio_06/Propuesta_de_ejercicio_06_Main.java)
 
-[Excepción](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Ejercicio06ArchivoNoEncontradoException.java)
+[Excepción](Propuesta_de_ejercicio_06/Ejercicio06ArchivoNoEncontradoException.java)
     
-[Manejo de Archivos](Propuesta_de_ejercicio_06/UF_01_Persistencia_en_ficheros/Propuesta_de_ejercicio_06_Main.java)
+[Manejo de Archivos](Propuesta_de_ejercicio_06/Ejercicio06ManejoDeArchivos.java)
 
