@@ -1,7 +1,7 @@
 # Ejercicios de Acceso a datos - Persistencia en BDR-BDOR-BDOOs - JAVA
 
 
-Ejercicio 1 - Crear conexión Base de Datos MySQL (en este caso lo hacemos para Oracle SQL Developer) utilizando JDBC (importamos ojdbc11.jar al proyecto):
+Ejercicio 1 - Crear conexión Base de Datos MySQL (en este caso lo hacemos para Oracle SQL Developer) utilizando JDBC (importamos [ojdbc11.jar](Propuesta_de_ejercicio_02/ojdbc11.jar) al proyecto):
 
 - Crea clase [ConnectDB](Propuesta_de_ejercicio_01/ConnectDB.java):
     - Crea constructor vacío (crea conexión por defecto)
